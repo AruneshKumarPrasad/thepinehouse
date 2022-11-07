@@ -1,0 +1,36 @@
+name: thepinehouse
+description: Coding Round 1 Assignment [ Dated -> 5/11/2022    Started at 06:11 pm]
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.6
+  firebase_storage: ^11.0.4
+  cloud_firestore: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/OS/
+
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OS/OpenSans-Regular.ttf
+        - asset: assets/fonts/OS/OpenSans-Bold.ttf
+          weight: 800
